@@ -1,0 +1,52 @@
+#header img{
+    width: 80px;
+}
+
+#main .carousel-inner img{
+    max-height: 70vh;
+    object-fit: cover;
+    filter:contrast(-50%);
+}
+
+#carousel {
+    position: relative;
+}
+
+#carousel .overlay{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+    height: 100%;
+    z-index: 1;
+}
+
+#place img{
+   max-width: 100%; 
+}
+
+#footer{
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(141,48,61,1) 0%, rgba(131,45,59,1) 100%, rgba(201,69,72,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+#footer a{
+    color: azure;
+    text-decoration: none;
+}
+
+.text-hola{
+    color: rgb(208, 46, 46);
+}
+
+.carousel{
+    max-width: 1200px; /* establecer un valor máximo para el ancho del contenedor */
+    margin: 0 auto; /* centrar el contenedor en la página */
+  }
+  
+
